@@ -9,7 +9,7 @@ logo = r"""
       |  \/ K|                            _/ |                
       `------'                           |__/           
 """
-cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
+cards = [11, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 def low_computer_score(cards_list, list_score):
     another_computer_card = random.sample(cards, 1)
     reference_computer = sum(cards_list) + another_computer_card[0]
